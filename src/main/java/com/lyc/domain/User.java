@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.lyc.enums.SexEnum;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -18,4 +19,5 @@ public class User {
     private Integer age;
     private String email;
 
+    private SexEnum sex;
 }
